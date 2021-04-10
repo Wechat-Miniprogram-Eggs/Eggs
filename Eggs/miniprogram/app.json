@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/timePage/timePage",
+    "pages/dataPage/dataPage",
+    "pages/settingPage/settingPage"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/code-cloud-callback-config.png",
+        "iconPath": "images/code-cloud-callback-config.png",
+        "pagePath": "pages/timePage/timePage",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/code-cloud-callback-config.png",
+        "iconPath": "images/code-cloud-callback-config.png",
+        "pagePath": "pages/dataPage/dataPage",
+        "text": "统计"
+      },
+      {
+        "selectedIconPath": "images/code-cloud-callback-config.png",
+        "iconPath": "images/code-cloud-callback-config.png",
+        "pagePath": "pages/index/index",
+        "text": "设置"
+      }
+    ]
+  }
+}
